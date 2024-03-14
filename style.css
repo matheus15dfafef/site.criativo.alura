@@ -1,13 +1,12 @@
-header {
-    background-color: #424E61;
-    color: white;
-}
+
 *{
     margin: 0;
     padding: 0;
 }
-
-.cabecalho {
+body {
+    font-family: 'Poppins', sans-serif;
+}
+    .cabecalho {
     background-color: #424E61;
     color: white;
     display: flex;
@@ -45,12 +44,11 @@ escola-imagem{
 
 .escola-titulo{
     padding: 24px 0;
-}   
+}
+
 .estudante{
     padding: 24px 0;
 }
-
-￼font-family:
 
 .estudante-imagem{
     width: 120px;
@@ -64,4 +62,24 @@ escola-imagem{
 .estudante-div{
     text-align: center;
     padding: 16px 0;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;  
 }
